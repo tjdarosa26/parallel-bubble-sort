@@ -2,7 +2,7 @@
 This experiment was a graduation work for the discipline of parallel and distributed programming.
 
 ## What is this experiment?
-This experiment consists of observing the time difference between the execution of a parallel sorting algorithm (using multiple threads) and a sequential one (one thread)
+This experiment consists of observing the time difference between the execution of a parallel sorting algorithm (using multiple threads) and a sequential one (one thread).
 
 ## How to reproduce this experiment?
 First, you have to compile the code and will need GCC (compiler) installed. Once you have the compiler, you have to run the following command on your terminal:
@@ -14,7 +14,7 @@ for example:
 gcc bubble.c -pthread -o bubble
 ```
 
-Keep reading to know how to execute them.
+Keep reading to know how to execute.
 
 ## Which arguments can I pass to the programs?
 For the sequential program, you must pass the number of arrays to order, and their size. For the parallel program, there is one more argument: the number of threads you want.
@@ -32,5 +32,7 @@ for the parallel one:
 ```
 
 ## Which results are expected?
-The output of the programs is their time spended ordering the arrays. For a big number of arrays with many elements, you should expect a better perfomance from the parallel program. Now, for a small number of arrays without many elements, you should expect he sequential one to be better.
+The output of the programs is their time spended ordering the arrays. For a big number of arrays with many elements, you should expect a better perfomance from the parallel program. Now, for a small number of arrays without many elements, you should expect the sequential one to be better. It happens because of the time needed to initialize the threads.
+
+You can also try many variations on the parallel program an observate how many threads will give a better performance. This will depend on the hardware used.
 
