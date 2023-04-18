@@ -1,5 +1,5 @@
 # Parallel Bubble Sort 
-This experiment was a graduation work for the discipline of parallel and distributed programming.
+This experiment was a college project for the discipline of parallel and distributed programming.
 
 ## What is this experiment?
 This experiment consists of observing the time difference between the execution of a parallel sorting algorithm (using multiple threads) and a sequential one (one thread).
